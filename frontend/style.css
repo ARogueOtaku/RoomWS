@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  overflow: hidden;
+}
+
+body {
+  margin: 10px;
+}
+
+.message {
+  padding: 5px;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 10px;
+  width: fit-content;
+  min-width: 20%;
+}
+
+.message > strong,
+.message > span {
+  display: block;
+  padding: 5px;
+}
+
+.message > strong {
+  font-size: 1em;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.data {
+  flex: 1;
+}
+
+.time {
+  font-size: 0.6em;
+  color: #444;
+  margin-left: 10px;
+}
+
+#messages {
+  display: flex;
+  flex-direction: column;
+}
